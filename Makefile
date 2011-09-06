@@ -4,9 +4,10 @@ SRC =	src/Class.cpp \
 		src/Method.cpp \
 		src/Structure.cpp \
 		src/Variable.cpp \
-		src/main.cpp
+		src/Utils.cpp \
+		src/main.cpp 
 
 all:
-	g++ $(SRC)
+	g++ -std=gnu++0x $(SRC)
 
 
